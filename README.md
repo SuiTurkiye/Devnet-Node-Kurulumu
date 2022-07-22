@@ -50,7 +50,7 @@ Başarılı olması durumunda buna benzer bir çıktı almanız gerekmektedir
 ![](success.jpeg)
 
 Ardından Devnet'e katılımınızı Sui'nin resmi discord sunucusu üzerinden onaylatmanız gerekmektedir.
-Discord' a erişmek için bu linki kullanabilirsiniz: https://discord.com/invite/sui
+Discord' a erişmek için bu linki kullanabilirsiniz: https://discord.gg/RNtD3BCU
 
 ![](dc.jpeg)
 
