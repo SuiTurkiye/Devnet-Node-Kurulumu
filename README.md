@@ -1,5 +1,20 @@
 # Sui Node Kurulumu
 
+![](sui.jpeg)
+
+İlerleyen haftalarda ödüllü Sui Testnet'i başlayacak. Ağa katılım için ön koşul olarak veya önceliklendirme açısından Devnet' e katılım bir kriter olabilir, bundan dolayı sizlerle Devnet node kurulumunu paylaşıyoruz.
+
+![](hardware.png)
+
+Gördüğünüz üzere donanımsal olarak en az 2 çekirdek CPU , 8gb RAM ve 50gb hafıza gerekmektedir
+
+![](software.png)
+
+Yazılımsal olarak ise Sui Linux'un Ubuntu dağıtımını tavsiye etmektedir.
+
+Full node kurulumu ve gereksinimler için daha detaylı bilgiye Sui'nin dokümantasyonundan erişebilirsiniz:
+https://docs.sui.io/build/fullnode
+
 İlk önce sudoyu kuralım
 ```
 sudo apt install
@@ -29,6 +44,18 @@ Ardından node'umuzun durumunu kontrol etmek için aşağıdaki komutu çalışt
 ```
 service suid status
 ```
+
+Başarılı olması durumunda buna benzer bir çıktı almanız gerekmektedir
+
+![](success.jpeg)
+
+Ardından Devnet'e katılımınızı Sui'nin resmi discord sunucusu üzerinden onaylatmanız gerekmektedir.
+Discord' a erişmek için bu linki kullanabilirsiniz: https://discord.com/invite/sui
+
+![](dc.jpeg)
+
+Discord'da node-ip-applications kanalı üzerinden sunucunuzun ip sini resimde de görebileceğiniz gibi şu formatta paylaşmanız gerekmektedir:
+http://ip:9000/
 
 Aşağıdaki hatayı almanız durumunda;
 
